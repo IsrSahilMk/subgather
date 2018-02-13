@@ -1,7 +1,7 @@
 # subgather
 
 This tool will help in gathering subdomains from Threatcrowd and Virustotal.
-You must need to add your API key in `keys/virustotalkey.txt` file.
+You must need to add your Virustotal API key in `keys/virustotalkey.txt` file.
 
 ### gems
 

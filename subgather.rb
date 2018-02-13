@@ -2,6 +2,9 @@
 require 'open-uri'
 require 'json'
 
+if File.zero?("keys/virustotalkey.txt") == true then puts "Virustotal API Key not added, please add the API key in keys/virustotalkey.txt" end
+
+
 TC = "https://www.threatcrowd.org/searchApi/v2/domain/report/?domain="
 
 dom = ARGV[0]

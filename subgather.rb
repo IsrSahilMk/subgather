@@ -26,7 +26,7 @@ else
  end
 end
 
-tc_res = open(TC + dom).read
+tc_res = open(TC + dom.to_s).read
 
 tc_parsed = JSON.parse(tc_res)
 arr_tc =  tc_parsed["subdomains"]
